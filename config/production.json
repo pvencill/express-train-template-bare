@@ -1,0 +1,11 @@
+{
+    "view_engine": "hbs",
+    "cookie_secret":"mysecret",
+    "session":{
+        "key":"mykey"
+    },
+    "http":{
+        "port":4000
+    },
+    "character_encoding":"utf-8"
+}

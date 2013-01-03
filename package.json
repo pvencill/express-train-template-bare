@@ -1,0 +1,28 @@
+{
+  "name": "express-train-template-bare",
+  "version": "0.0.2",
+  "directories": {},
+  "engines": {
+    "node": ">=0.6.6",
+    "npm": ">=1.1"
+  },
+  "dependencies": {
+    "express": "latest",
+    "express-train": "latest",
+    "connect-timeout": "latest",
+    "async": "latest",
+    "express-hbs": "latest",
+    "express-trace": "0.0.3"
+  },
+  "devDependencies": {
+  },
+  "main": "./node_modules/.bin/train run",
+  "scripts": {
+    "start": "./app/index.js"
+  },
+  "constants": {
+    "title": "structure app",
+    "session_length": 1209600000,
+    "request_timeout": 10000
+  }
+}

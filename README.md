@@ -1,4 +1,5 @@
-express-train-template-bare
-===========================
+# Express train template
 
-A bare scaffold of the express-train template, without assumptions about database, logging, or authentication
+This is the default template that ships with express-train, the nodejs framework based on express 3. To find out more, visit:
+
+https://github.com/autoric/express-train
